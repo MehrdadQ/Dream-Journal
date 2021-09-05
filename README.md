@@ -8,7 +8,7 @@ User can click on the "Add Dream" button to open the text box. From there, they 
 
 The user can delete any dream entry and the selected dream will also be deleted from the Local Strorage.
 
-A button at the otp right gives the option to toggle between Light Mode and Night Mode.
+A button at the top right gives the option to toggle between Light Mode and Night Mode.
 
 Demo:
 
