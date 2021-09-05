@@ -1,4 +1,4 @@
-# Dream Journal
+# [Dream Journal](https://mehrdadq.github.io/Dream-Journal)
 
 This is a simple dream journal which uses the user's Local Storage to save entered dream entries on the user's device.
 
