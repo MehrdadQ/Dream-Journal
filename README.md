@@ -11,4 +11,5 @@ The user can delete any dream entry and the selected dream will also be deleted 
 A button at the otp right gives the option to toggle between Light Mode and Night Mode.
 
 Demo:
+
 ![](Dream_Journal_Demo.gif)
