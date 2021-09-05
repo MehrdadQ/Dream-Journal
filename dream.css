@@ -60,7 +60,7 @@ button:hover {
 }
 
 .dark {
-  background-image: url(../images/dark.png);
+  background-image: url(images/dark.png);
   background-size: contain;
   background-repeat: no-repeat;
   color: white;
@@ -68,7 +68,7 @@ button:hover {
 }
 
 .light {
-  background-image: url(../images/light.png);
+  background-image: url(images/light.png);
   background-size: contain;
   background-repeat: no-repeat;
   color: white;
