@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dream Journal</title>
+    <link rel="stylesheet" href="dream.css" />
+    <link rel="icon" href="../images/dream-logo.ico" />
+    <script
+      src="https://kit.fontawesome.com/761d0b0291.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="buttons">
+      <button id="add">Add dream</button>
+      <button class="light" id="switch">`</button>
+    </div>
+    <div id="add-dream" class="hidden">
+      <h3 class="title">New Dream Entry</h3>
+      <i class="far fa-window-close" id="close-btn"></i>
+      <div id="container">
+        <textarea
+          placeholder="Write as much detail as possible..."
+          id="dream-input"
+        ></textarea>
+      </div>
+      <div id="date-submit">
+        <input type="date" id="date-input" />
+        <input type="submit" id="submit-btn" />
+      </div>
+    </div>
+    <div id="dream-container">
+      <div id="dream-list"></div>
+    </div>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="dream.js"
+      defer
+    ></script>
+  </body>
+</html>
