@@ -206,6 +206,7 @@ function darkMode() {
   if (switchBtn.classList.contains("dark")) {
     switchBtn.classList.remove("dark");
     switchBtn.classList.add("light");
+    switchBtn.src = "../images/light.png";
     document.documentElement.style.setProperty("--text-color", "black");
     document.documentElement.style.setProperty("--bg-color", "white");
     document.documentElement.style.setProperty("--box-bg-color", "white");
@@ -217,6 +218,7 @@ function darkMode() {
   } else {
     switchBtn.classList.remove("light");
     switchBtn.classList.add("dark");
+    switchBtn.src = "../images/dark.png";
     document.documentElement.style.setProperty(
       "--text-color",
       "rgb(200,200,200)"
